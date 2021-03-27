@@ -14,8 +14,8 @@ module.exports = async ({graphql, actions}) => {
   // Used to detect and prevent duplicate redirects
   const redirectToSlugMap = {};
 
-  const blogTemplate = resolve(__dirname, '../src/templates/blog.js');
-  const communityTemplate = resolve(__dirname, '../src/templates/community.js');
+  const blogsTemplate = resolve(__dirname, '../src/templates/blog.js');
+  const communitysTemplate = resolve(__dirname, '../src/templates/community.js');
   const docsTemplate = resolve(__dirname, '../src/templates/docs.js');
   const tutorialTemplate = resolve(__dirname, '../src/templates/tutorial.js');
 
